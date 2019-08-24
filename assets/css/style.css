@@ -490,6 +490,59 @@ body {
       }
 }
 
+@media only screen and (max-width: 768px) {
+    .cat {
+        float: left;
+        width: 750px;
+        height: 92px;
+    }
+
+    #dog {
+        max-width: 750px;
+        float: left;
+        width: 715px;
+        padding: 30px;
+        margin-left: 11px;
+        height: 635px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .cat {
+        position: static;
+        float: middle;
+        width: 100;
+        height: 190px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #logo {
+        float: middle;
+        height: 90px;
+        width: 615px;
+    }
+
+    #bowl {
+        float: left;
+        padding-left: 145px;
+    }
+
+    #dog {
+        max-width: 750px;
+        float: left;
+        width: 585px;
+        padding: 30px;
+        margin-left: 11px;
+        height: 615px;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+
+}
+
 
 
 
